@@ -2,6 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 
 export const eventBus = new Vue({
+  // You can use ../../ to traverse
   data: {},
   methods: {
     changeAge() {
